@@ -13,7 +13,7 @@ const productOptions = [
     description: 'Idéal pour commencer à développer votre serveur !',
     link: '/checkout/base',
     features: [
-      { icon: <FaMicrochip />, text: 'Intel Xeon E5-2670 v3' },
+      { icon: <FaMicrochip />, text: 'PROCESSEUR' },
       { icon: <FaUsers />, text: 'Idéal pour environ 8 joueurs' },
       { icon: <FaMemory />, text: '4 Go RAM DDR4 ECC' },
       { icon: <FaHdd />, text: '50 Go SSD' },
@@ -28,7 +28,7 @@ const productOptions = [
     description: 'Idéal pour les serveurs plus grands avec des fonctionnalités supplémentaires.',
     link: '/checkout/advanced',
     features: [
-      { icon: <FaMicrochip />, text: 'Intel Xeon E5-2680 v4' },
+      { icon: <FaMicrochip />, text: 'PROCESSEUR' },
       { icon: <FaUsers />, text: 'Idéal pour environ 30 joueurs' },
       { icon: <FaMemory />, text: '8 Go RAM DDR4 ECC' },
       { icon: <FaHdd />, text: '100 Go NVMe SSD' },
@@ -43,7 +43,7 @@ const productOptions = [
     description: 'La meilleure solution pour des performances optimales et une sécurité accrue.',
     link: '/checkout/premium',
     features: [
-      { icon: <FaMicrochip />, text: 'Intel Xeon E5-2690 v4' },
+      { icon: <FaMicrochip />, text: 'PROCESSEUR' },
       { icon: <FaUsers />, text: 'Idéal pour environ 100 joueurs' },
       { icon: <FaMemory />, text: '16 Go RAM DDR4 ECC' },
       { icon: <FaHdd />, text: '200 Go NVMe SSD' },
@@ -58,7 +58,7 @@ const productOptions = [
     description: 'Conçu pour les serveurs de grande envergure nécessitant une performance inégalée.',
     link: '/checkout/ultra',
     features: [
-      { icon: <FaMicrochip />, text: 'Intel Xeon E5-2699 v4' },
+      { icon: <FaMicrochip />, text: 'PROCESSEUR' },
       { icon: <FaUsers />, text: 'Idéal pour environ 250 joueurs' },
       { icon: <FaMemory />, text: '32 Go RAM DDR4 ECC' },
       { icon: <FaHdd />, text: '500 Go NVMe SSD' },
@@ -78,14 +78,14 @@ const productOptions = [
       { icon: <FaMemory />, text: 'RAM extensible' },
       { icon: <FaHdd />, text: 'Stockage personnalisable' },
       { icon: <FaCloud />, text: 'Protection DDoS maximale' },
-      { icon: <FaMapMarkerAlt />, text: 'Localisé en France ou à l\'international' },
+      { icon: <FaMapMarkerAlt />, text: 'Localisé en France' },
     ],
   },
 ];
 
 const includedFeatures = [
   { icon: <FaShieldAlt />, title: 'ANTI-DDOS', description: 'Mitigation automatique' },
-  { icon: <FaMicrochip />, title: 'INTEL XEON / AMD RYZEN', description: '3.10 / 4.6 GHz' },
+  { icon: <FaMicrochip />, title: 'AMD RYZEN / EPYC', description: '3.10 / 4.6 GHz' },
   { icon: <FaDesktop />, title: 'PANEL', description: 'Comme si vous étiez sur votre machine' },
   { icon: <FaFolder />, title: 'WEB-FTP', description: 'Explorez et éditez sans logiciel' },
   { icon: <FaHeadset />, title: 'SUPPORT 24/7', description: 'Un support à votre écoute' },
