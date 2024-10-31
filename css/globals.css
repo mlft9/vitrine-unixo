@@ -1,0 +1,31 @@
+/* globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ajoutez ceci dans le fichier global CSS */
+html.dark {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+  }
+  
+  /* Tailwind prendra en charge les classes avec le préfixe `dark:` */
+  .dark .bg-white {
+    background-color: #1e1e1e;
+  }
+  
+  .dark .text-gray-800 {
+    color: #e0e0e0;
+  }
+  
+  /* Autres ajustements pour le mode sombre */
+  /* global.css ou un fichier CSS de style */
+.bg-banner {
+  background-image: url('/path/to/your/light-background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.dark .bg-banner {
+  background-image: url('/path/to/your/dark-background.jpg'); /* Image en mode sombre */
+}
